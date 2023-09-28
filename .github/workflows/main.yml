@@ -19,6 +19,5 @@ jobs:
         with:
           url: http://49.36.191.205:8080/
           job_name: Test2
-          username: ${{ secrets.JENKINS_USER }}
           api_token: 11835a74fcae4e2bdfd835891cfbf2fdb8
           timeout: "1000"
