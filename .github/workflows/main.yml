@@ -15,7 +15,7 @@ jobs:
     name: Build
     steps:
       - name: Trigger jenkins job
-        uses: ubunturoxshacker/simple-node-js-react-npm-app
+        uses: ubunturoxshacker/simple-node-js-react-npm-app@master
         with:
           url: http://49.36.191.205:8080/
           job_name: Test2
