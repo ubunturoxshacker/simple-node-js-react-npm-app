@@ -11,7 +11,7 @@ class App extends Component {
           <h1 className="App-title"> 👋  and welcome </h1>
         </header>
         <p className="App-intro">
-          To get started run npm start
+          To get started run npm start when in dev env.
         </p>
       </div>
     );
